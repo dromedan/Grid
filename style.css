@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.cell{
+    width: 50px;
+    height: 50px;
+    
+}
+.row{
+    display: flex;
+}
+
+#playmat{
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+#test{
+    font-size: 6px;
+}
+
+#controls{
+    
+    display: flex;
+    padding-bottom: 20px;
+    background-image: url('./maze images/bricks.jpg');
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#navigation{
+    text-align: center;
+    margin-left: 50px;
+}
+
+#score-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(240, 220, 209);
+}
+
+#score{
+    font-size: 65px;
+    
+}
+
+.title{
+    color:  rgb(240, 220, 209);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+#grid-container{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+.Scell{
+    width: 50px;
+}
+#up{
+    border-top: red 3px solid;
+    
+    border-right: red 3px solid;
+    border-bottom: red 3px solid;
+    background-color: white;
+    transform: rotate(270deg);
+    border-radius: 10px;
+}
+#left{
+    border-top: red 3px solid;
+    border-right: red 3px solid;
+    border-bottom: red 3px solid;
+    margin-right: 10px;
+    transform: rotate(180deg);
+    background-color: white;
+    border-radius: 10px;
+}
+#down{
+    border-top: red 3px solid;
+    border-right: red 3px solid;
+    border-bottom: red 3px solid;
+    background-color: white;
+    transform: rotate(90deg);
+    border-radius: 10px;
+}
+#right{
+    border-top: red 3px solid;
+    border-right: red 3px solid;
+    border-bottom: red 3px solid;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+}

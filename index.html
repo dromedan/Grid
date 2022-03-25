@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <link href="style.css"type="text/css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <audio id="audio" src="/Grid/bleep.wav"></audio>
+    </head>
+    <body>
+        <div id="playmat">
+            <div id="grid-container">
+                <div class="row">
+                    <img id="1" class="cell" src="maze images/top.png">
+                    <img id="2" class="cell" src="maze images/top.png">
+                    <img id="3" class="cell" src="maze images/top.png">
+                    <img id="4" class="cell" src="maze images/top.png">
+                    <img id="5" class="cell" src="maze images/top.png">
+                    <img id="6" class="cell" src="maze images/top.png">
+                    <img id="7" class="cell" src="maze images/top.png">
+                    <img id="8" class="cell" src="maze images/top.png">
+                    <img id="9" class="cell" src="maze images/top.png">
+                    <img id="10" class="cell" src="maze images/top.png">
+                </div>
+                <div class="row">
+                    <img id="11" class="cell" src="maze images/left.png">
+                    <img id="12" class="cell" src="maze images/blank.png">
+                    <img id="13" class="cell" src="maze images/blank.png">
+                    <img id="14" class="cell" src="maze images/blank.png">
+                    <img id="15" class="cell" src="maze images/blank.png">
+                    <img id="16" class="cell" src="maze images/blank.png">
+                    <img id="17" class="cell" src="maze images/blank.png">
+                    <img id="18" class="cell" src="maze images/blank.png">
+                    <img id="19" class="cell" src="maze images/blank.png">
+                    <img id="20" class="cell" src="maze images/right.png">
+                </div>
+                <div class="row">
+                    <img id="21" class="cell" src="maze images/left.png">
+                    <img id="22" class="cell" src="maze images/blank.png">
+                    <img id="23" class="cell" src="maze images/blank.png">
+                    <img id="24" class="cell" src="maze images/blank.png">
+                    <img id="25" class="cell" src="maze images/blank.png">
+                    <img id="26" class="cell" src="maze images/blank.png">
+                    <img id="27" class="cell" src="maze images/blank.png">
+                    <img id="28" class="cell" src="maze images/blank.png">
+                    <img id="29" class="cell" src="maze images/blank.png">
+                    <img id="30" class="cell" src="maze images/right.png">
+                </div>
+                <div class="row">
+                    <img id="31" class="cell" src="maze images/left.png">
+                    <img id="32" class="cell" src="maze images/blank.png">
+                    <img id="33" class="cell" src="maze images/blank.png">
+                    <img id="34" class="cell" src="maze images/blank.png">
+                    <img id="35" class="cell" src="maze images/blank.png">
+                    <img id="36" class="cell" src="maze images/blank.png">
+                    <img id="37" class="cell" src="maze images/blank.png">
+                    <img id="38" class="cell" src="maze images/blank.png">
+                    <img id="39" class="cell" src="maze images/blank.png">
+                    <img id="40" class="cell" src="maze images/right.png">
+                </div>
+                <div class="row">
+                    <img id="41" class="cell" src="maze images/left.png">
+                    <img id="42" class="cell" src="maze images/blank.png">
+                    <img id="43" class="cell" src="maze images/blank.png">
+                    <img id="44" class="cell" src="maze images/blank.png">
+                    <img id="45" class="cell" src="maze images/blank.png">
+                    <img id="46" class="cell" src="maze images/blank.png">
+                    <img id="47" class="cell" src="maze images/blank.png">
+                    <img id="48" class="cell" src="maze images/blank.png">
+                    <img id="49" class="cell" src="maze images/blank.png">
+                    <img id="50" class="cell" src="maze images/right.png">
+                </div>
+                <div class="row">
+                    <img id="51" class="cell" src="maze images/left.png">
+                    <img id="52" class="cell" src="maze images/blank.png">
+                    <img id="53" class="cell" src="maze images/blank.png">
+                    <img id="54" class="cell" src="maze images/blank.png">
+                    <img id="55" class="cell" src="maze images/blank.png">
+                    <img id="56" class="cell" src="maze images/blank.png">
+                    <img id="57" class="cell" src="maze images/blank.png">
+                    <img id="58" class="cell" src="maze images/blank.png">
+                    <img id="59" class="cell" src="maze images/blank.png">
+                    <img id="60" class="cell" src="maze images/right.png">
+                </div>
+                <div class="row">
+                    <img id="61" class="cell" src="maze images/left.png">
+                    <img id="62" class="cell" src="maze images/blank.png">
+                    <img id="63" class="cell" src="maze images/blank.png">
+                    <img id="64" class="cell" src="maze images/blank.png">
+                    <img id="65" class="cell" src="maze images/blank.png">
+                    <img id="66" class="cell" src="maze images/blank.png">
+                    <img id="67" class="cell" src="maze images/blank.png">
+                    <img id="68" class="cell" src="maze images/blank.png">
+                    <img id="69" class="cell" src="maze images/blank.png">
+                    <img id="70" class="cell" src="maze images/right.png">
+                </div>
+                <div class="row">
+                    <img id="71" class="cell" src="maze images/left.png">
+                    <img id="72" class="cell" src="maze images/blank.png">
+                    <img id="73" class="cell" src="maze images/blank.png">
+                    <img id="74" class="cell" src="maze images/blank.png">
+                    <img id="75" class="cell" src="maze images/blank.png">
+                    <img id="76" class="cell" src="maze images/blank.png">
+                    <img id="77" class="cell" src="maze images/blank.png">
+                    <img id="78" class="cell" src="maze images/blank.png">
+                    <img id="79" class="cell" src="maze images/blank.png">
+                    <img id="80" class="cell" src="maze images/right.png">
+                </div>
+                <div class="row">
+                    <img id="81" class="cell" src="maze images/left.png">
+                    <img id="82" class="cell" src="maze images/blank.png">
+                    <img id="83" class="cell" src="maze images/blank.png">
+                    <img id="84" class="cell" src="maze images/blank.png">
+                    <img id="85" class="cell" src="maze images/blank.png">
+                    <img id="86" class="cell" src="maze images/blank.png">
+                    <img id="87" class="cell" src="maze images/blank.png">
+                    <img id="88" class="cell" src="maze images/blank.png">
+                    <img id="89" class="cell" src="maze images/blank.png">
+                    <img id="90" class="cell" src="maze images/right.png">
+                </div>
+                <div class="row">
+                    <img id="91" class="cell" src="maze images/bottom.png">
+                    <img id="92" class="cell" src="maze images/bottom.png">
+                    <img id="93" class="cell" src="maze images/bottom.png">
+                    <img id="94" class="cell" src="maze images/bottom.png">
+                    <img id="95" class="cell" src="maze images/bottom.png">
+                    <img id="96" class="cell" src="maze images/bottom.png">
+                    <img id="97" class="cell" src="maze images/bottom.png">
+                    <img id="98" class="cell" src="maze images/bottom.png">
+                    <img id="99" class="cell" src="maze images/bottom.png">
+                    <img id="100" class="cell" src="maze images/bottom.png">
+                </div>
+                <div id="controls">
+                    <div class="text-center">
+                        <p class="title">score</p>
+                        <div id='score-box'>
+                            <p id="score">0</p>
+                        </div>
+                    </div>
+                    <div id="navigation">
+                        <p class="title">controls</p>
+                        <br>
+                        <div class="flex-center">
+                            <img id="up" class="Scell" src="maze images/arrow.png">
+                        </div>
+                        <div class="flex-center">
+                            <img id="left" class="Scell" src="maze images/arrow.png">
+                            <img id="right" class="Scell" src="maze images/arrow.png">
+                        </div>
+                        <div class="flex-center">
+                            <img id="down" class="Scell" src="maze images/arrow.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </body>
+    <script src="script.js"></script>
+</html>
